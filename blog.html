@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="nl">
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blog.css"/>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="first-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projecten.html">Projecten</a>
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="htmlcss.html">HTML/CSS</a></li>
+                    <li><a href="anders.html">Anders</a></li>
+                </ul>
+            </li>
+            <li><a href="overmij.html">Over mij</a></li>
+            <li><a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="email.html">Email</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="second-ul">
+            <li><span id="menu-button"><img src="image/menu.png" alt="Menu"/>&#9660;</span>
+                <ul class="second-sub-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projecten.html"><span>&#9668;</span>Projecten</a>
+                        <ul>
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.htmp">CSS</a></li>
+                            <li><a href="htmlcss.html">HTML/CSS</a></li>
+                            <li><a href="anders.html">Anders</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="overmij.html">Over mij</a></li>
+                    <li><a href="contact.html"><span>&#9668;</span>Contact</a>
+                        <ul>
+                            <li><a href="info.html">Info</a></li>
+                            <li><a href="email.html">Email</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div role="main">
+    <div id="main-image">
+        <img src="image/header.png" alt="Portfolio"/>
+    </div>
+    <section id="main-header">
+        <h1>Blog</h1>
+    </section>
+    <div id="main-content">
+        <form action="blog.html">
+            <label for="bericht">Bericht:</label>
+            <textarea name="bericht" id="bericht" cols="30" rows="6" placeholder="Plaats hier je bericht:" maxlength="610" required autofocus></textarea>
+            <input type="submit" name="submit" value="Plaats"/>
+            <p>Characters left: 610</p>
+        </form>
+        <form action="blog.html">
+            <fieldset>
+                <legend>Bericht 29-10-2014</legend>
+                <p>Eindelijk, ik heb mijn portfolio website af en alles is geworden zoals ik het wil!</p>
+                <p>Nu ga ik het na laten kijken en waar nodig aanpassen.</p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <nav>
+        <ul>
+            <li><p>Projecten:</p>
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="htmlcss.html">HTML/CSS</a></li>
+                    <li><a href="anders.html">Anders</a></li>
+                </ul>
+            </li>
+            <li><p>Contact:</p>
+                <ul>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="email.html">Email</a></li>
+                </ul>
+            </li>
+            <li><p>--Volg mij op--</p>
+                <ul class="footer-image-ul">
+                    <li><a href="http://www.facebook.com"><img src="image/facebook.png" alt="Facebook"/></a></li>
+                    <li><a href="http://www.google.nl"><img src="image/google.png" alt="Google"/></a></li>
+                    <li><a href="http://www.twitter.com"><img src="image/twitter.png" alt="Twitter"/></a></li>
+                </ul>
+            </li>
+            <li><p>Ik ben een student van:</p>
+                <ul>
+                    <li><a href="http://www.zadkine.nl"><img src="image/zadkine.png" alt="Zadkine"/></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>

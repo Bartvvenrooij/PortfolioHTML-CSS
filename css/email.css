@@ -1,0 +1,29 @@
+fieldset {
+    margin: 0 10px 10px;
+    padding-left: 10px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+#from, #email {
+    width: 30%;
+}
+
+#subject {
+    display: block;
+    width: 60%;
+}
+
+textarea {
+    width: 70%;
+    resize: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#submit {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+.images {
+    width: 20%;
+    float: right;
+}
+
+.images img {
+    width: 50%;
+}
+
+#main-content h2 {
+    font-size: 19px;
+    padding: 0 10px;
+}
+
+#main-content p {
+    padding: 0 10px;
+}
+
+#main-content a {
+    color: #000000;
+}
+
+.names {
+    margin: 10px 0;
+}
+
+.middle-text {
+    padding: 20px 0;
+    width: 20%;
+}

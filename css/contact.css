@@ -1,0 +1,29 @@
+#main-content p, h2, h3 {
+    padding: 0 10px;
+}
+
+#main-content {
+    padding-bottom: 10px;
+}
+
+#main-content a {
+    color: #000000;
+}
+
+#main-content h2 {
+    font-size: 19px;
+}
+
+#main-content h3 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#main-content img {
+    width: 40px;
+    margin: 0 0 0 10px;
+}
+
+#main-content img:hover {
+    opacity: 0.7;
+}

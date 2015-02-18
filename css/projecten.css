@@ -1,0 +1,11 @@
+#main-content {
+    text-align: center;
+}
+
+#main-content img {
+    margin: 10px 30px;
+}
+
+#main-content img:hover {
+    opacity: 0.7;
+}

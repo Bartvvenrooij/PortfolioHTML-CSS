@@ -1,0 +1,32 @@
+form {
+    width: 99%;
+}
+
+textarea {
+    width: 95%;
+    resize: none;
+    margin: 0 2.5%;
+}
+
+input {
+    margin: 0 2.5% 10px;
+}
+
+form:first-child p {
+    padding-right: 20px;
+    float: right;
+    font-size: 11px;
+}
+
+fieldset {
+    width: 95%;
+    margin: 0 2.5%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 2.5%;
+    display: block;
+}
